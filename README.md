@@ -28,6 +28,7 @@ Open http://127.0.0.1:8000/. Commit and push changes to `main` to publish. Check
 - Profile, education, experience, funding, and bibliographic details were drawn from the owner's confirmed records as of September 6, 2026. Only homepage content and assets belong in this repository.
 - The MTRB-QTA equal-contribution marks for Yuxiang Zhang, Xin Fan, and Junjie Wang were verified against the published paper's first page.
 - The layout is independently implemented, inspired by [Tsunehiko Tanaka](https://tsunehiko.github.io/) and [Jon Barron](https://jonbarron.info/).
+- `assets/pirbd-pdd.png` is Figure 2 (method overview) extracted from the author's supplied PIRBD-PDD manuscript. The paper is accepted to EMNLP 2026; the manuscript itself is not distributed here. Figure rights remain with the authors.
 - `assets/rads-pdd.png` reproduces a figure from [RADS-PDD](https://doi.org/10.1016/j.neunet.2026.109393), © 2026 The Authors, published by Elsevier under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 - `assets/dad-pdd.png` reproduces the architecture figure from [DAD-PDD](https://doi.org/10.1007/978-981-95-4091-4_7). Rights remain with the authors and Springer Nature.
 - `assets/mtrb-qta.jpg` reproduces the framework figure from [MTRB-QTA](https://doi.org/10.1145/3673791.3698429). Rights remain with the respective copyright holders; see the [public paper](https://arxiv.org/abs/2410.03212).
