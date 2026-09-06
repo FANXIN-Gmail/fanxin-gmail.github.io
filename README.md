@@ -7,7 +7,7 @@ This is a static site: no framework, package installation, JavaScript, or build 
 ## Update the homepage
 
 - **Biography and contact links:** edit the `BIO` section in `index.html`.
-- **Publications:** edit the `PUBLICATIONS` section. Duplicate an `<article>` block for a new paper, give it unique IDs, preserve the published author order, and bold Xin Fan. Include only first-author or equal-contribution papers. Keep `* Equal contribution` and all relevant author markers together.
+- **Selected Publications:** edit the `PUBLICATIONS` section. This curated list includes first-author, equal-contribution, and collaborative papers. Duplicate an `<article>` block for a new paper, give it unique IDs, preserve the published author order, and bold Xin Fan. Keep `* Equal contribution` and all relevant author markers together.
 - **Paper resources:** link to public publisher pages, DOIs, arXiv, or public project repositories. Label an overview/data repository `Project`; use `Code` only for an available implementation. Omit resources that are not public; do not upload unpublished drafts.
 - **Publication status:** keep acceptance separate from publication. RADS-PDD has a 2027 volume year and July 16, 2026 online publication date; DAD-PDD appeared at ICONIP 2025 and was published in 2026.
 - **Photo:** replace `assets/xin-fan.jpg` and update its intrinsic width and height if the dimensions change. The current portrait is displayed in its original 3:4 proportions.
@@ -27,6 +27,7 @@ Open http://127.0.0.1:8000/. Commit and push changes to `main` to publish. Check
 
 - Profile, education, experience, funding, and bibliographic details were drawn from the owner's confirmed records as of September 6, 2026. Only homepage content and assets belong in this repository.
 - The MTRB-QTA equal-contribution marks for Yuxiang Zhang, Xin Fan, and Junjie Wang were verified against the published paper's first page.
+- The GateBoxGCN author list and RecSys 2026 acceptance were checked against the [ZOZO NEXT announcement](https://zozonext.com/news/20260903_zozoresearch). Its public repository contains an implementation and is labeled `Code`. The two collaborative journal papers link to their publisher DOIs: [Pattern Recognition](https://doi.org/10.1016/j.patcog.2025.111829) and [Neurocomputing](https://doi.org/10.1016/j.neucom.2023.127140). These three entries use text-only layouts until suitable original figures are available.
 - The layout is independently implemented, inspired by [Tsunehiko Tanaka](https://tsunehiko.github.io/) and [Jon Barron](https://jonbarron.info/).
 - `assets/pirbd-pdd.png` is Figure 2 (method overview) extracted from the author's supplied PIRBD-PDD manuscript. The paper is accepted to EMNLP 2026; the manuscript itself is not distributed here. Figure rights remain with the authors.
 - `assets/rads-pdd.png` reproduces a figure from [RADS-PDD](https://doi.org/10.1016/j.neunet.2026.109393), © 2026 The Authors, published by Elsevier under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
