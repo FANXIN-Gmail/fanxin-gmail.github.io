@@ -1,0 +1,34 @@
+# Xin Fan — Academic Homepage
+
+An English academic homepage, published at https://fanxin-gmail.github.io/.
+
+This is a static site: no framework, package installation, JavaScript, or build step is required. GitHub Pages publishes the root of the `main` branch; `.nojekyll` disables Jekyll processing.
+
+## Update the homepage
+
+- **Biography and contact links:** edit the `BIO` section in `index.html`.
+- **Publications:** edit the `PUBLICATIONS` section. Duplicate an `<article>` block for a new paper, give it unique IDs, preserve the published author order, and bold Xin Fan. Include only first-author or equal-contribution papers. Keep `* Equal contribution` and all relevant author markers together.
+- **Paper resources:** link to public publisher pages, DOIs, arXiv, or public project repositories. Label an overview/data repository `Project`; use `Code` only for an available implementation. Omit resources that are not public; do not upload unpublished drafts.
+- **Publication status:** keep acceptance separate from publication. RADS-PDD has a 2027 volume year and July 16, 2026 online publication date; DAD-PDD appeared at ICONIP 2025 and was published in 2026.
+- **Photo:** replace `assets/xin-fan.jpg` and update its intrinsic width and height if the dimensions change. The current portrait is displayed in its original 3:4 proportions.
+- **Figures:** store them in `assets/`, add meaningful alt text and intrinsic dimensions, and preserve their aspect ratio. The images link to their full-size versions. Use `publication text-only` for a paper without a figure.
+- **Education, experience, and funding:** edit the corresponding sections of `index.html`. Update the footer date after substantive changes.
+- **Appearance:** edit `stylesheet.css`; the single-column mobile layout begins at 700px.
+
+Preview locally from this directory:
+
+```sh
+python3 -m http.server 8000 --bind 127.0.0.1
+```
+
+Open http://127.0.0.1:8000/. Commit and push changes to `main` to publish. Check the GitHub Pages deployment under the repository's Actions tab and Settings → Pages.
+
+## Content and attribution
+
+- Profile, education, experience, funding, and bibliographic details were drawn from the owner's confirmed records as of September 6, 2026. Only homepage content and assets belong in this repository.
+- The MTRB-QTA equal-contribution marks for Yuxiang Zhang, Xin Fan, and Junjie Wang were verified against the published paper's first page.
+- The layout is independently implemented, inspired by [Tsunehiko Tanaka](https://tsunehiko.github.io/) and [Jon Barron](https://jonbarron.info/).
+- `assets/rads-pdd.png` reproduces a figure from [RADS-PDD](https://doi.org/10.1016/j.neunet.2026.109393), © 2026 The Authors, published by Elsevier under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+- `assets/dad-pdd.png` reproduces the architecture figure from [DAD-PDD](https://doi.org/10.1007/978-981-95-4091-4_7). Rights remain with the authors and Springer Nature.
+- `assets/mtrb-qta.jpg` reproduces the framework figure from [MTRB-QTA](https://doi.org/10.1145/3673791.3698429). Rights remain with the respective copyright holders; see the [public paper](https://arxiv.org/abs/2410.03212).
+- The portrait was supplied by Xin Fan and approved for this homepage. No blanket license is granted for the portrait or third-party figures.

@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Xin Fan | Waseda University</title>
+  <meta name="author" content="Xin Fan">
+  <meta name="description" content="Xin Fan is a PhD student at Waseda University. His research focuses on large language models, pre-training data detection, memorization evaluation, inference acceleration, and safe generation.">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="canonical" href="https://fanxin-gmail.github.io/">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+  <a class="skip-link" href="#publications">Skip to publications</a>
+  <main id="top">
+    <!-- BIO: Update this introduction and the contact links together. -->
+    <header class="intro" aria-labelledby="name">
+      <div class="bio">
+        <h1 id="name">Xin Fan</h1>
+        <p>I am a PhD student in <a href="https://www.yama.info.waseda.ac.jp/en/">Yamana Laboratory</a> at <a href="https://www.waseda.jp/fsci/en/">Waseda University</a>, Tokyo, Japan. I received my master’s degree in Computer Science and Communications Engineering from Waseda University in 2024.</p>
+        <p>My research centers on <strong>large language models</strong>. Over the past several years, I have focused on pre-training data detection and LLM memorization evaluation, while also exploring knowledge editing, machine unlearning, interpretability, and test-time adaptation. My current work focuses on inference acceleration and safe generation.</p>
+        <p>Earlier, I worked on graph neural networks, recommender systems, incremental learning, and knowledge distillation. My broader interests include foundation model interpretability, spatial understanding and reasoning, and world models.</p>
+        <ul class="contact-links" aria-label="Contact and academic profiles">
+          <li><a href="mailto:fan_xin@fuji.waseda.jp">Email</a></li>
+          <li><a href="https://scholar.google.com/citations?user=zkoar9IAAAAJ&amp;hl=en">Google Scholar</a></li>
+          <li><a href="https://github.com/FANXIN-Gmail">GitHub</a></li>
+        </ul>
+      </div>
+      <figure class="portrait">
+        <img src="assets/xin-fan.jpg" alt="Portrait of Xin Fan" width="3000" height="4000" fetchpriority="high">
+      </figure>
+    </header>
+
+    <!-- PUBLICATIONS: First-author and equal-contribution papers only. -->
+    <section id="publications" aria-labelledby="publications-title">
+      <h2 id="publications-title">Publications</h2>
+      <p class="section-note">First-author and co-first-author papers. <span>* Equal contribution.</span></p>
+      <div class="publication-list">
+        <article class="publication text-only" id="pirbd-pdd" aria-labelledby="pirbd-title">
+          <div class="publication-copy">
+            <h3 id="pirbd-title">Prompt-Induced Recovery Behavior Decomposition for Black-Box Pre-training Data Detection</h3>
+            <p class="authors"><strong>Xin Fan</strong>, Miyamoto Ryoto, Fan Mo, Chongxian Chen, Tsuneo Matsumoto, Fuyuko Kido, Hayato Yamana</p>
+            <p class="venue"><em>EMNLP 2026, Main Conference</em> <span class="publication-status">Accepted / To appear</span></p>
+          </div>
+        </article>
+
+        <article class="publication" id="rads-pdd" aria-labelledby="rads-title">
+          <a class="paper-figure" href="assets/rads-pdd.png" aria-label="View the RADS-PDD method diagram at full size">
+            <img src="assets/rads-pdd.png" alt="RADS-PDD weights reproduction matches by position, contiguous spans, and expression rarity." width="1750" height="847" loading="lazy" decoding="async">
+          </a>
+          <div class="publication-copy">
+            <h3 id="rads-title">RADS-PDD: Reproducibility-aware dynamic similarity-based pre-training data detection against LLMs</h3>
+            <p class="authors"><strong>Xin Fan</strong>, Miyamoto Ryoto, Fan Mo, Chongxian Chen, Tsuneo Matsumoto, Fuyuko Kido, Hayato Yamana</p>
+            <p class="venue"><em>Neural Networks</em>, Vol. 205, 109393, 2027</p>
+            <p class="publication-note">Available online July 16, 2026</p>
+            <ul class="resource-links" aria-label="RADS-PDD resources">
+              <li><a href="https://doi.org/10.1016/j.neunet.2026.109393">Paper / DOI</a></li>
+              <li><a href="https://github.com/FANXIN-Gmail/RADS-PDD">Project</a></li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="publication" id="dad-pdd" aria-labelledby="dad-title">
+          <a class="paper-figure" href="assets/dad-pdd.png" aria-label="View the DAD-PDD architecture at full size">
+            <img src="assets/dad-pdd.png" alt="DAD-PDD combines token-level scored ranks and sentence-level lexical matches in a sequence classifier." width="2451" height="1379" loading="lazy" decoding="async">
+          </a>
+          <div class="publication-copy">
+            <h3 id="dad-title">DAD-PDD: Dual-Aspect Discrepancies-Based Pre-Training Data Detection for LLMs</h3>
+            <p class="authors"><strong>Xin Fan</strong>, Fan Mo, Miyamoto Ryoto, Eint Sandi Aung, Chongxian Chen, Tsuneo Matsumoto, Fuyuko Kido, Hayato Yamana</p>
+            <p class="venue"><em>ICONIP 2025</em>, CCIS 2754, pp. 94–108</p>
+            <p class="publication-note">Published in 2026</p>
+            <ul class="resource-links" aria-label="DAD-PDD resources">
+              <li><a href="https://doi.org/10.1007/978-981-95-4091-4_7">Paper / DOI</a></li>
+              <li><a href="https://github.com/FANXIN-Gmail/DAD-PDD">Project</a></li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="publication" id="mtrb-qta" aria-labelledby="mtrb-title">
+          <a class="paper-figure" href="assets/mtrb-qta.jpg" aria-label="View the Query-Tool Alignment framework at full size">
+            <img src="assets/mtrb-qta.jpg" alt="The Query-Tool Alignment framework trains an LLM with retrieval-derived preferences, then rewrites queries for a frozen retriever." width="2580" height="1180" loading="lazy" decoding="async">
+          </a>
+          <div class="publication-copy">
+            <h3 id="mtrb-title">Data-Efficient Massive Tool Retrieval: A Reinforcement Learning Approach for Query-Tool Alignment with Language Models</h3>
+            <p class="authors">Yuxiang Zhang<sup>*</sup>, <strong>Xin Fan<sup>*</sup></strong>, Junjie Wang<sup>*</sup>, Chongxian Chen, Fan Mo, Tetsuya Sakai, Hayato Yamana</p>
+            <p class="venue"><em>SIGIR-AP 2024</em>, pp. 226–235</p>
+            <ul class="resource-links" aria-label="MTRB-QTA resources">
+              <li><a href="https://arxiv.org/abs/2410.03212">Paper</a></li>
+              <li><a href="https://github.com/FANXIN-Gmail/MTRB-QTA">Project</a></li>
+              <li><a href="https://doi.org/10.1145/3673791.3698429">DOI</a></li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="publication text-only" id="experience-replay" aria-labelledby="replay-title">
+          <div class="publication-copy">
+            <h3 id="replay-title">Connectivity-Aware Experience Replay for Graph Convolution Network-Based Collaborative Filtering in Incremental Setting</h3>
+            <p class="authors"><strong>Xin Fan</strong>, Fan Mo, Chongxian Chen, Changhao Bai, Hayato Yamana</p>
+            <p class="venue"><em>ICBDA 2024</em>, pp. 233–242</p>
+            <ul class="resource-links" aria-label="Connectivity-Aware Experience Replay resources">
+              <li><a href="https://doi.org/10.1109/ICBDA61153.2024.10607188">Paper / DOI</a></li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- EDUCATION: Degree descriptions avoid unconfirmed formal degree titles. -->
+    <section id="education" aria-labelledby="education-title">
+      <h2 id="education-title">Education</h2>
+      <div class="entry">
+        <div class="entry-heading"><h3>Waseda University, Tokyo, Japan</h3><p class="date">Apr. 2024 – Present</p></div>
+        <p>Doctoral Program, Computer Science and Communications Engineering</p>
+        <p class="entry-note">Graduate School of Fundamental Science and Engineering<br>Expected completion: March 2027</p>
+      </div>
+      <div class="entry">
+        <div class="entry-heading"><h3>Waseda University, Tokyo, Japan</h3><p class="date">Apr. 2022 – Mar. 2024</p></div>
+        <p>Master’s Program, Computer Science and Communications Engineering</p>
+        <p class="entry-note">Graduate School of Fundamental Science and Engineering</p>
+      </div>
+      <div class="entry">
+        <div class="entry-heading"><h3>Zhongyuan University of Technology, China</h3><p class="date">Sept. 2016 – July 2020</p></div>
+        <p>Undergraduate Program, School of Software</p>
+      </div>
+    </section>
+
+    <section id="experience" aria-labelledby="experience-title">
+      <h2 id="experience-title">Experience</h2>
+      <div class="entry">
+        <div class="entry-heading"><h3>Airev</h3><p class="date">Apr. 2023 – Present</p></div>
+        <p class="role">Research Intern</p>
+        <p class="entry-description">Research and development on large language models. At NTCIR-18 U4, I contributed to a framework for table retrieval and table question answering over Japanese financial reports. The AIREV team placed second in both tasks.</p>
+        <ul class="resource-links" aria-label="NTCIR-18 U4 resources">
+          <li><a href="https://doi.org/10.20736/0002002098">Task report</a></li>
+          <li><a href="https://airev.co.jp/en/news/1qbCiO2TsLmyQrF7t6bGLB/">Team report</a></li>
+        </ul>
+      </div>
+      <div class="entry">
+        <div class="entry-heading"><h3>Yamana Laboratory, Waseda University</h3><p class="date">Apr. 2024 – Mar. 2025</p></div>
+        <p class="role">Research Assistant</p>
+        <p class="entry-description">Research on copyright infringement issues in large language models.</p>
+      </div>
+    </section>
+
+    <section id="funding" aria-labelledby="funding-title">
+      <h2 id="funding-title">Research Funding</h2>
+      <div class="entry">
+        <div class="entry-heading"><h3>W-SPRING / JST SPRING</h3><p class="date">2024 – 2027</p></div>
+        <p>Doctoral research support through Waseda University’s W-SPRING program.</p>
+        <p class="resource-links"><a href="https://dpt-wspring.w.waseda.jp/application">Program</a></p>
+      </div>
+      <div class="entry">
+        <div class="entry-heading"><h3>Waseda University–KIOXIA Young Researcher Grant</h3><p class="date">2026 – 2027</p></div>
+        <p>Research support from the Waseda Research Institute for Science and Engineering and KIOXIA Corporation.</p>
+      </div>
+      <div class="entry">
+        <div class="entry-heading"><h3>MEXT SPReAD</h3><p class="date">2026 – 2027</p></div>
+        <p>Supporting Pioneering Research through AI for 1,000 Discovery challenges.</p>
+        <p class="resource-links"><a href="https://www.mext.go.jp/aifors_spread/">Program</a></p>
+      </div>
+    </section>
+    <footer>
+      <p>Last updated: <time datetime="2026-09-06">September 2026</time></p>
+      <p>Layout inspired by <a href="https://tsunehiko.github.io/">Tsunehiko Tanaka</a> and <a href="https://jonbarron.info/">Jon Barron</a>.</p>
+    </footer>
+  </main>
+</body>
+</html>
