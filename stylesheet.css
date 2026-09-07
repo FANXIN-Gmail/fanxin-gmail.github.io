@@ -32,6 +32,18 @@ h1 { margin-bottom: 20px; text-align: center; font-size: 2.125rem; line-height: 
 .bio > p { margin-bottom: 14px; }
 .portrait { width: 210px; }
 .portrait img { width: 100%; }
+.portrait-placeholder {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  padding: 16px;
+  border: 1px dashed #cdd2d7;
+  background: #f7f8f9;
+  color: var(--secondary);
+  font-size: .875rem;
+  text-align: center;
+}
 .contact-links, .resource-links { display: flex; flex-wrap: wrap; align-items: baseline; list-style: none; padding: 0; gap: 0; }
 .contact-links { justify-content: center; margin: 18px 0 0; }
 .contact-links li + li::before, .resource-links li + li::before { content: "/"; margin: 0 10px; color: #9b9b9b; }

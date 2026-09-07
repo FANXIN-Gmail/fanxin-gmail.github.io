@@ -10,7 +10,7 @@ This is a static site: no framework, package installation, JavaScript, or build 
 - **Selected Publications:** edit the `PUBLICATIONS` section. This curated list includes first-author, equal-contribution, and collaborative papers. Duplicate an `<article>` block for a new paper, give it unique IDs, preserve the published author order, and bold Xin Fan. Keep `* Equal contribution` and all relevant author markers together.
 - **Paper resources:** link to public publisher pages, DOIs, arXiv, or public project repositories. Label an overview/data repository `Project`; use `Code` only for an available implementation. Omit resources that are not public; do not upload unpublished drafts.
 - **Publication status:** keep acceptance separate from publication. RADS-PDD has a 2027 volume year and July 16, 2026 online publication date; DAD-PDD appeared at ICONIP 2025 and was published in 2026.
-- **Photo:** replace `assets/xin-fan.jpg` and update its intrinsic width and height if the dimensions change. The current portrait is displayed in its original 3:4 proportions.
+- **Photo:** the homepage currently uses a 3:4 placeholder. To add a photo, save it as `assets/xin-fan.jpg` and replace the `portrait-placeholder` div in the `PHOTO` section with `<img src="assets/xin-fan.jpg" alt="Portrait of Xin Fan" width="3000" height="4000" fetchpriority="high">`. Set `width` and `height` to the new image’s actual pixel dimensions; the layout preserves its original proportions.
 - **Figures:** store them in `assets/`, add meaningful alt text and intrinsic dimensions, and preserve their aspect ratio. The images link to their full-size versions. Use `publication text-only` for a paper without a figure.
 - **Education, experience, and funding:** edit the corresponding sections of `index.html`. Update the footer date after substantive changes.
 - **Appearance:** edit `stylesheet.css`; the single-column mobile layout begins at 700px.
@@ -33,4 +33,4 @@ Open http://127.0.0.1:8000/. Commit and push changes to `main` to publish. Check
 - `assets/rads-pdd.png` reproduces a figure from [RADS-PDD](https://doi.org/10.1016/j.neunet.2026.109393), © 2026 The Authors, published by Elsevier under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 - `assets/dad-pdd.png` reproduces the architecture figure from [DAD-PDD](https://doi.org/10.1007/978-981-95-4091-4_7). Rights remain with the authors and Springer Nature.
 - `assets/mtrb-qta.jpg` reproduces the framework figure from [MTRB-QTA](https://doi.org/10.1145/3673791.3698429). Rights remain with the respective copyright holders; see the [public paper](https://arxiv.org/abs/2410.03212).
-- The portrait was supplied by Xin Fan and approved for this homepage. No blanket license is granted for the portrait or third-party figures.
+- The portrait is currently omitted from the homepage and deployed assets. No blanket license is granted for third-party figures.
