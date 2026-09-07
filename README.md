@@ -14,6 +14,7 @@ This is a static site: no framework, package installation, JavaScript, or build 
 - **Figures:** store them in `assets/`, add meaningful alt text and intrinsic dimensions, and preserve their aspect ratio. The images link to their full-size versions. Use `publication text-only` for a paper without a figure.
 - **Education, experience, and funding:** edit the corresponding sections of `index.html`. Update the footer date after substantive changes.
 - **Appearance:** edit `stylesheet.css`; the single-column mobile layout begins at 700px.
+- **Footer:** show only the last-updated date. The owner requested removal of the visible layout-inspiration credit on September 7, 2026; keep that provenance in this maintenance document.
 
 Preview locally from this directory:
 
