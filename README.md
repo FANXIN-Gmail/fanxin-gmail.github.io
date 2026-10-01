@@ -1,20 +1,21 @@
 # Xin Fan — Academic Homepage
 
-An English academic homepage, published at https://fanxin-gmail.github.io/.
+An English and Japanese academic homepage, published at https://fanxin-gmail.github.io/ (English) and https://fanxin-gmail.github.io/ja.html (Japanese).
 
 This is a static site: no framework, package installation, JavaScript, or build step is required. GitHub Pages publishes the root of the `main` branch; `.nojekyll` disables Jekyll processing.
 
 ## Update the homepage
 
-- **Biography and contact links:** edit the `BIO` section in `index.html`.
+- **Languages:** `index.html` is the English version and `ja.html` is the Japanese version. Keep the same sections, selected papers, author order, figures, and resource links in both. Translate explanatory text, headings, dates, link labels, and accessibility descriptions; preserve official paper titles, author names, and conference/journal names as published. Both pages share `stylesheet.css`, include reciprocal language links, and declare alternate language URLs.
+- **Biography and contact links:** edit the `BIO` section in both `index.html` and `ja.html`.
 - **Research summary:** keep a concise PhD introduction with graduate school, laboratory, and supervisor, followed by past research, ongoing interests, and current research. Bold the current research topics. The September 23, 2026 revision removes the master's-degree sentence and earlier non-LLM research from the introduction.
 - **Selected Publications:** edit the `PUBLICATIONS` section. This curated list includes first-author, equal-contribution, and collaborative papers. Duplicate an `<article>` block for a new paper, give it unique IDs, preserve the published author order, and bold Xin Fan. Keep `* Equal contribution` and all relevant author markers together.
 - **Paper resources:** link to public publisher pages, DOIs, arXiv, or public project repositories. Label an overview/data repository `Project`; use `Code` only for an available implementation. Omit resources that are not public; do not upload unpublished drafts.
 - **Publication format:** after each title, show the complete author list, the full conference or journal name (followed by its established acronym when useful), and month/year. Omit page ranges, volume/series numbers, article numbers, conference-track labels, and separate online/proceedings-publication notes. Use conference event months and journal issue months, with RADS-PDD displayed as July 2026 using its first online publication date, as confirmed by the owner on September 8, 2026. Keep `Accepted / To appear` for accepted papers that have not yet been published. These homepage display rules do not remove bibliographic details from source records or figure attributions.
-- **Venue metrics:** show a linked CORE rank for conferences using the stated ICORE edition, and a linked Journal Impact Factor (JIF) with its metric year for journals. These are a current venue-metric snapshot, not the metric at each paper’s publication date. Verify both the value and year from the official portal or publisher. Keep any joint-conference qualification visible; never inherit a parent conference’s rank for a regional conference, workshop, or short paper.
+- **Venue metrics:** the owner requested removal of all CORE ranks, journal impact factors, and the explanatory metrics note on October 1, 2026. Do not display venue metrics in either language. Retain the equal-contribution note and author asterisks.
 - **Photo:** the homepage temporarily uses the owner's social media profile image, `assets/xin-fan-social.jpg` (640 × 457), at its original aspect ratio. To replace it later, update the `img` in the `PHOTO` section, its descriptive alt text, and its actual pixel dimensions. Keep `fetchpriority="high"` for this image.
 - **Figures:** store them in `assets/`, add meaningful alt text and intrinsic dimensions, and preserve their aspect ratio. The images link to their full-size versions. Use `publication text-only` for a paper without a figure.
-- **Education, experience, and funding:** edit the corresponding sections of `index.html`. Update the footer date after substantive changes.
+- **Education, experience, and funding:** edit the corresponding sections of both pages. Update both footer dates after substantive changes.
 - **Appearance:** edit `stylesheet.css`; the single-column mobile layout begins at 700px.
 - **Footer:** show only the last-updated date. The owner requested removal of the visible layout-inspiration credit on September 7, 2026; keep that provenance in this maintenance document.
 
@@ -47,9 +48,9 @@ Open http://127.0.0.1:8000/. Commit and push changes to `main` to publish. Check
 - Added PCC-SQL on September 8, 2026. The title, author order (`Miyamoto Ryoto, Xin Fan, Hayato Yamana`), and AACL-IJCNLP 2026 main-conference acceptance were confirmed by the owner and the supplied acceptance screenshot. The homepage follows its existing display format and shows `Accepted / To appear`; the conference name and November 2026 date were checked against the [official conference website](https://2026.aaclnet.org/). No public paper or implementation URL was supplied, so the entry has no paper/code link.
 - `assets/pcc-sql.png` is Figure 2 (architecture and token-level masking example), extracted from page 4 of the owner’s supplied PCC-SQL manuscript. It illustrates the state tracker and policy-aware logit masking. The anonymous draft and acceptance screenshot are not distributed in this repository. Figure rights remain with the authors.
 
-## Venue metrics (verified September 23, 2026)
+## Archived venue metrics (verified September 23, 2026; removed from homepage October 1, 2026)
 
-Conference labels use **ICORE 2026**, the current edition of the former CORE rankings. The source edition is stated above Selected Publications; each label links to its official record. A* is a rank, separate from the author asterisks for equal contribution. The [ICORE requirements](https://portal.core.edu.au/conf-changes/serve_file/icore-addition.pdf/) limit a conference rank to main-track full papers.
+The following is a historical verification record, retained for provenance only. These metrics and their explanatory note are no longer displayed on the homepage. The former labels used **ICORE 2026**; each label linked to its official record. A* is a rank, separate from the author asterisks for equal contribution. The [ICORE requirements](https://portal.core.edu.au/conf-changes/serve_file/icore-addition.pdf/) limit a conference rank to main-track full papers.
 
 | Venue | Displayed metric | Official source / qualification |
 |---|---|---|
@@ -63,4 +64,4 @@ Conference labels use **ICORE 2026**, the current edition of the former CORE ran
 | Pattern Recognition | Impact Factor: 9.1 (2025) | [Publisher Journal Insights](https://www.sciencedirect.com/journal/pattern-recognition/about/insights) |
 | Neurocomputing | Impact Factor: 6.7 (2025) | [Publisher Journal Insights](https://www.sciencedirect.com/journal/neurocomputing/about/insights) |
 
-All three publisher pages and their Impact Factor information popovers were checked directly in the browser. They identify the metrics as 2025 Journal Citation Reports (Clarivate Analytics, 2026). Thus **2025 is the JIF year**, while 2026 is the release year. Older indexed publisher pages still show 2024 values (6.3, 7.6, and 6.5); the homepage uses the current verified 2025 values consistently. Do not substitute CiteScore, a different metric, for JIF. Metrics describe venues and do not score the individual papers.
+All three publisher pages and their Impact Factor information popovers were checked directly in the browser on September 23, 2026. They identified the metrics as 2025 Journal Citation Reports (Clarivate Analytics, 2026). Thus **2025 is the JIF year**, while 2026 is the release year. Older indexed publisher pages showed 2024 values (6.3, 7.6, and 6.5); the homepage formerly displayed the verified 2025 values consistently. Metrics describe venues and do not score the individual papers.
