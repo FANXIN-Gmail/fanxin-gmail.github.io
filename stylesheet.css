@@ -21,6 +21,7 @@ body {
 }
 main { max-width: 900px; margin: 0 auto; padding: 48px 28px 24px; }
 html[lang="ja"] body { font-family: Arial, Helvetica, "Hiragino Kaku Gothic ProN", "Yu Gothic", Meiryo, sans-serif; }
+html[lang="zh-Hans"] body { font-family: Arial, Helvetica, "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; }
 .language-links { display: flex; justify-content: flex-end; align-items: center; gap: 10px; margin-bottom: 22px; font-size: .875rem; }
 .language-links [aria-current="page"] { color: var(--secondary); }
 .language-links [aria-hidden="true"] { color: #9b9b9b; }

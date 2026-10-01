@@ -1,21 +1,21 @@
 # Xin Fan — Academic Homepage
 
-An English and Japanese academic homepage, published at https://fanxin-gmail.github.io/ (English) and https://fanxin-gmail.github.io/ja.html (Japanese).
+An English, Japanese, and Simplified Chinese academic homepage, published at https://fanxin-gmail.github.io/ (English), https://fanxin-gmail.github.io/ja.html (Japanese), and https://fanxin-gmail.github.io/zh.html (Chinese).
 
 This is a static site: no framework, package installation, JavaScript, or build step is required. GitHub Pages publishes the root of the `main` branch; `.nojekyll` disables Jekyll processing.
 
 ## Update the homepage
 
-- **Languages:** `index.html` is the English version and `ja.html` is the Japanese version. Keep the same sections, selected papers, author order, figures, and resource links in both. Translate explanatory text, headings, dates, link labels, and accessibility descriptions; preserve official paper titles, author names, and conference/journal names as published. Both pages share `stylesheet.css`, include reciprocal language links, and declare alternate language URLs.
-- **Biography and contact links:** edit the `BIO` section in both `index.html` and `ja.html`.
+- **Languages:** `index.html` is the English version, `ja.html` is the Japanese version, and `zh.html` is the Simplified Chinese version. Keep the same sections, selected papers, author order, figures, and resource links in all three. Translate explanatory text, headings, dates, link labels, and accessibility descriptions; preserve official paper titles, author names, and conference/journal names as published. All pages share `stylesheet.css`, include links to the other two languages, and declare alternate language URLs (`en`, `ja`, and `zh-Hans`).
+- **Biography and contact links:** edit the `BIO` section in `index.html`, `ja.html`, and `zh.html`.
 - **Research summary:** keep a concise PhD introduction with graduate school, laboratory, and supervisor, followed by past research, ongoing interests, and current research. Bold the current research topics. The September 23, 2026 revision removes the master's-degree sentence and earlier non-LLM research from the introduction.
 - **Selected Publications:** edit the `PUBLICATIONS` section. This curated list includes first-author, equal-contribution, and collaborative papers. Duplicate an `<article>` block for a new paper, give it unique IDs, preserve the published author order, and bold Xin Fan. Keep `* Equal contribution` and all relevant author markers together.
 - **Paper resources:** link to public publisher pages, DOIs, arXiv, or public project repositories. Label an overview/data repository `Project`; use `Code` only for an available implementation. Omit resources that are not public; do not upload unpublished drafts.
 - **Publication format:** after each title, show the complete author list, the full conference or journal name (followed by its established acronym when useful), and month/year. Omit page ranges, volume/series numbers, article numbers, conference-track labels, and separate online/proceedings-publication notes. Use conference event months and journal issue months, with RADS-PDD displayed as July 2026 using its first online publication date, as confirmed by the owner on September 8, 2026. Keep `Accepted / To appear` for accepted papers that have not yet been published. These homepage display rules do not remove bibliographic details from source records or figure attributions.
-- **Venue metrics:** the owner requested removal of all CORE ranks, journal impact factors, and the explanatory metrics note on October 1, 2026. Do not display venue metrics in either language. Retain the equal-contribution note and author asterisks.
+- **Venue metrics:** the owner requested removal of all CORE ranks, journal impact factors, and the explanatory metrics note on October 1, 2026. Do not display venue metrics in any language. Retain the equal-contribution note and author asterisks.
 - **Photo:** the homepage temporarily uses the owner's social media profile image, `assets/xin-fan-social.jpg` (640 × 457), at its original aspect ratio. To replace it later, update the `img` in the `PHOTO` section, its descriptive alt text, and its actual pixel dimensions. Keep `fetchpriority="high"` for this image.
 - **Figures:** store them in `assets/`, add meaningful alt text and intrinsic dimensions, and preserve their aspect ratio. The images link to their full-size versions. Use `publication text-only` for a paper without a figure.
-- **Education, experience, and funding:** edit the corresponding sections of both pages. Update both footer dates after substantive changes.
+- **Education, experience, and funding:** edit the corresponding sections of all three pages. Update all footer dates after substantive changes.
 - **Appearance:** edit `stylesheet.css`; the single-column mobile layout begins at 700px.
 - **Footer:** show only the last-updated date. The owner requested removal of the visible layout-inspiration credit on September 7, 2026; keep that provenance in this maintenance document.
 
