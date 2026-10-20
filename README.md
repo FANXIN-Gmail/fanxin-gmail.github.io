@@ -1,6 +1,6 @@
 # Xin Fan — Academic Homepage
 
-An English, Japanese, and Simplified Chinese academic homepage, published at https://fanxin-gmail.github.io/ (English), https://fanxin-gmail.github.io/ja.html (Japanese), and https://fanxin-gmail.github.io/zh.html (Chinese).
+An English, Japanese, and Simplified Chinese academic homepage, published at https://fanxin-gmail.github.io/en.html (English), https://fanxin-gmail.github.io/ja.html (Japanese), and https://fanxin-gmail.github.io/zh.html (Chinese).
 
 This is a static site: no framework, package installation, JavaScript, or build step is required. GitHub Pages publishes the root of the `main` branch; `.nojekyll` disables Jekyll processing.
 
@@ -8,8 +8,8 @@ The jobs and internship overviews are maintained separately in `FANXIN-Gmail/job
 
 ## Update the homepage
 
-- **Languages:** `index.html` is the English version, `ja.html` is the Japanese version, and `zh.html` is the Simplified Chinese version. Keep the same sections, selected papers, author order, figures, and resource links in all three. Translate explanatory text, headings, dates, link labels, and accessibility descriptions; preserve official paper titles, author names, and conference/journal names as published. All pages share `stylesheet.css`, include links to the other two languages, and declare alternate language URLs (`en`, `ja`, and `zh-Hans`).
-- **Biography and contact links:** edit the `BIO` section in `index.html`, `ja.html`, and `zh.html`.
+- **Languages:** `en.html` is the English version, `ja.html` is the Japanese version, and `zh.html` is the Simplified Chinese version. Keep the same sections, selected papers, author order, figures, and resource links in all three. Translate explanatory text, headings, dates, link labels, and accessibility descriptions; preserve official paper titles, author names, and conference/journal names as published. The root `index.html` only redirects to `en.html`; keep English content in `en.html`. All three language pages share `stylesheet.css`, include links to the other two languages, and declare alternate language URLs (`en`, `ja`, and `zh-Hans`).
+- **Biography and contact links:** edit the `BIO` section in `en.html`, `ja.html`, and `zh.html`.
 - **Research summary:** keep a concise PhD introduction with graduate school, laboratory, and supervisor, followed by past research, ongoing interests, and current research. Bold the current research topics. The September 23, 2026 revision removes the master's-degree sentence and earlier non-LLM research from the introduction.
 - **Selected Publications:** edit the `PUBLICATIONS` section. This curated list includes first-author, equal-contribution, and collaborative papers. Duplicate an `<article>` block for a new paper, give it unique IDs, preserve the published author order, and bold Xin Fan. Keep `* Equal contribution` and all relevant author markers together.
 - **Paper resources:** link to public publisher pages, DOIs, arXiv, or public project repositories. Label an overview/data repository `Project`; use `Code` only for an available implementation. Omit resources that are not public; do not upload unpublished drafts.
