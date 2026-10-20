@@ -4,6 +4,8 @@ An English, Japanese, and Simplified Chinese academic homepage, published at htt
 
 This is a static site: no framework, package installation, JavaScript, or build step is required. GitHub Pages publishes the root of the `main` branch; `.nojekyll` disables Jekyll processing.
 
+The jobs and internship overviews are maintained separately in `FANXIN-Gmail/jobs` and `FANXIN-Gmail/interns`, published at `/jobs/` and `/interns/`. The legacy `career/` pages are redirects only; do not copy overview tables or their styles into this academic homepage repository.
+
 ## Update the homepage
 
 - **Languages:** `index.html` is the English version, `ja.html` is the Japanese version, and `zh.html` is the Simplified Chinese version. Keep the same sections, selected papers, author order, figures, and resource links in all three. Translate explanatory text, headings, dates, link labels, and accessibility descriptions; preserve official paper titles, author names, and conference/journal names as published. All pages share `stylesheet.css`, include links to the other two languages, and declare alternate language URLs (`en`, `ja`, and `zh-Hans`).
